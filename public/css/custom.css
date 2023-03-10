@@ -1,0 +1,170 @@
+/*
+*******************************************
+Template Name: Allegiant
+Author: Shinto kunjumon
+Date: 07-07-2022
+Template By: Vandalay Designs
+Copyright 2020-2021 Vandalay Business Solution
+
+* This file contains the styling for laonclaims.co.uk, this
+is the file you need to edit to change the look of the
+site.
+
+This files contents are outlined below >>>>
+
+*** SEARCH EACH SECTION AS IT COMMENTS, YOU WILL GET THE RIGHT SECTION.
+*******************************************
+
+============================================
+==== T A B L E   O F   C O N T E N T S =====
+============================================
+01 - Sass Variables
+02 - Sass Mixins
+03 - BODY 
+04 - HEADER 
+05 - SECTION 
+06 - FOOTER 
+07 - MODAL 
+08 - MEDIA QUERY
+
+============================================
+============================================
+
+*/
+/*================================================
+01 - Sass Variables
+==================================================*/
+/*================================================
+02 - Sass Mixins
+==================================================*/
+/*================================================
+03 - BODY STYLES
+==================================================*/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000;
+  background-color: #ffffff;
+}
+
+a {
+  cursor: pointer;
+}
+
+/*================================================
+04 -HEADER-SECTION
+==================================================*/
+header {
+  padding: 20px 0;
+  border-bottom: 1px solid rgb(131, 131, 131);
+}
+header img {
+  height: 80px;
+}
+
+/*================================================
+05 - BANNER SECTION
+==================================================*/
+.bnrsection img {
+  max-width: 100%;
+  width: 100%;
+}
+.bnrsection h1 {
+  font-size: 30px;
+  margin: 30px 0 15px;
+  font-weight: 500;
+  color: #0087cd;
+}
+.bnrsection h1 span {
+  color: #122c3c;
+}
+.bnrsection h2 {
+  font-weight: 700;
+  font-size: 36px;
+  margin: 30px 0 15px;
+  color: #0087cd;
+}
+.bnrsection .formpart {
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding: 20px;
+  background: #f5f5f5;
+}
+.bnrsection .formpart .form-control:focus {
+  border-color: rgba(134, 183, 254, 0);
+  box-shadow: 0 0 0 1px rgba(0, 19, 48, 0.5215686275);
+}
+.bnrsection .formpart .form-check {
+  display: block;
+  padding: 0;
+  width: 45%;
+  width: 50%;
+  margin: 2% auto;
+  float: none;
+}
+.bnrsection .formpart .form-check .form-check-label {
+  background: #00adef;
+  padding: 15px;
+  width: 100%;
+  color: #fff;
+}
+.bnrsection .formpart .form-check .form-check-input[type=radio], .bnrsection .formpart .form-check .form-check-input:checked[type=radio] {
+  display: none;
+}
+.bnrsection .formpart .form-check .form-check-input:checked + .form-check-label {
+  background-color: #004e83;
+}
+.bnrsection .formpart fieldset {
+  border: 1px solid #8d8d8d !important;
+  padding: 8px 15px 15px !important;
+  margin: 0 0 !important;
+  border-radius: 5px;
+}
+.bnrsection .formpart fieldset legend {
+  font-size: 17px !important;
+  font-weight: 500;
+  text-align: left;
+  width: auto !important;
+  padding: 0 10px;
+  margin: 0;
+  float: none;
+}
+.bnrsection .formpart .btn {
+  min-width: 200px;
+  padding: 10px 20px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.bnrsection .formpart #postaddrs2 {
+  margin: 40px 0;
+}
+.bnrsection .formpart p {
+  margin: 10px 0;
+}
+
+/*================================================
+07 - FOOTER
+==================================================*/
+footer {
+  padding: 20px 0;
+  margin: 40px 0 0;
+  background-color: #e2e2e2;
+  border-top: 2px solid rgb(107, 107, 107);
+}
+
+/*================================================
+09 - MEDIA QUERY
+==================================================*/
+@media screen and (max-width: 768px) {
+  .bnrsection .formpart .form-check {
+    width: 100%;
+  }
+  .bnrsection .formpart .btn {
+    margin-top: 10px;
+  }
+}
